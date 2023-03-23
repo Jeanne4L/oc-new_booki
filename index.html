@@ -40,21 +40,23 @@
 
                 <!--SEARCH BAR-->
                 <form>
-                    <div class="icon-search">
-                        <i class="fa-solid fa-location-dot"></i>
+                    <div class="form__container">
+                        <div class="search-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <input type="text" placeholder="Marseille, France">
+                        <button class="search-bar__btn btn-mobile">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                        <button class="search-bar__btn btn-desktop">
+                            Rechercher
+                        </button>
                     </div>
-                    <input type="text" placeholder="Marseille, France">
-                    <button class="search-bar__btn btn-mobile">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </button>
-                    <button class="search-bar__btn btn-desktop">
-                        Rechercher
-                    </button>
                 </form>
 
                 <!--FILTERS-->
+                <h2 class="small">Filtres</h2>
                 <div class="filters">
-                    <h3>Filtres</h3>
                     <div class="filters__btn">
                         <i class="fa-solid fa-money-bill-wave"></i>
                         <p>Économique</p>
@@ -72,9 +74,9 @@
                         <p>Nos pépites</p>
                     </div>
                 </div>
-                <div>
+                <div class="info">
                     <i class="fa-solid fa-info"></i>
-                    <h5>Plus de 500 logements sont disponibles dans cette ville</h5>
+                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
 
                 <!--HEBERGEMENTS-->
