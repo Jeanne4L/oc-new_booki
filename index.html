@@ -35,48 +35,50 @@
             </header>
 
             <main>
-                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                <p>En plein centre ville ou en pleine nature</p>
-
-                <!--SEARCH BAR-->
-                <form>
-                    <div class="form__container">
-                        <div class="search-icon">
-                            <i class="fa-solid fa-location-dot"></i>
+                <div class="container">
+                    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                    <p>En plein centre-ville ou en pleine nature</p>
+    
+                    <!--SEARCH BAR-->
+                    <form>
+                        <div class="form__container">
+                            <div class="search-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <input type="text" placeholder="Marseille, France">
+                            <button class="search-bar__btn btn-mobile">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                            <button class="search-bar__btn btn-desktop">
+                                Rechercher
+                            </button>
                         </div>
-                        <input type="text" placeholder="Marseille, France">
-                        <button class="search-bar__btn btn-mobile">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </button>
-                        <button class="search-bar__btn btn-desktop">
-                            Rechercher
-                        </button>
+                    </form>
+    
+                    <!--FILTERS-->
+                    <h2 class="small">Filtres</h2>
+                    <div class="filters">
+                        <div class="filters__btn">
+                            <i class="fa-solid fa-money-bill-wave"></i>
+                            <p>Économique</p>
+                        </div>
+                        <div class="filters__btn">
+                            <i class="fa-solid fa-person"></i>
+                            <p>Familial</p>
+                        </div>
+                        <div class="filters__btn">
+                            <i class="fa-solid fa-heart"></i>
+                            <p>Romantique</p>
+                        </div>
+                        <div class="filters__btn">
+                            <i class="fa-sharp fa-solid fa-fire"></i>
+                            <p>Nos pépites</p>
+                        </div>
                     </div>
-                </form>
-
-                <!--FILTERS-->
-                <h2 class="small">Filtres</h2>
-                <div class="filters">
-                    <div class="filters__btn">
-                        <i class="fa-solid fa-money-bill-wave"></i>
-                        <p>Économique</p>
+                    <div class="info">
+                        <i class="fa-solid fa-info"></i>
+                        <p>Plus de 500 logements sont disponibles dans cette ville</p>
                     </div>
-                    <div class="filters__btn">
-                        <i class="fa-solid fa-child-reaching"></i>
-                        <p>Familial</p>
-                    </div>
-                    <div class="filters__btn">
-                        <i class="fa-solid fa-heart"></i>
-                        <p>Romantique</p>
-                    </div>
-                    <div class="filters__btn">
-                        <i class="fa-sharp fa-solid fa-fire"></i>
-                        <p>Nos pépites</p>
-                    </div>
-                </div>
-                <div class="info">
-                    <i class="fa-solid fa-info"></i>
-                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
 
                 <!--HEBERGEMENTS-->
@@ -271,48 +273,50 @@
 
                 <!--ACIVITIES-->
                 <section class="activities">
-                    <h2>Activités à Marseille</h2>
-                    <div class="activities__wrapper">
-                        <a href="#">
-                            <article class="card">
-                                <img src="./images/activites/reno-laithienne.jpg" alt="Photo d'un port" loading="lazy">
-                                <div class="card-content">
-                                    <div class="card-txt">
-                                        <h3 class="card-title">Vieux-Port</h3>
+                    <div class="container">
+                        <h2>Activités à Marseille</h2>
+                        <div class="activities__wrapper">
+                            <a href="#">
+                                <article class="card">
+                                    <img src="./images/activites/reno-laithienne.jpg" alt="Photo d'un port" loading="lazy">
+                                    <div class="card-content">
+                                        <div class="card-txt">
+                                            <h3 class="card-title">Vieux-Port</h3>
+                                        </div>
                                     </div>
-                                </div>
-                            </article>
-                        </a>
-                        <a href="#">
-                            <article class="card">
-                                <img src="./images/activites/paul-hermann.jpg" alt="Photo d'un fort" loading="lazy">
-                                <div class="card-content">
-                                    <div class="card-txt">
-                                        <h3 class="card-title">Fort de Pomègues</h3>
+                                </article>
+                            </a>
+                            <a href="#">
+                                <article class="card">
+                                    <img src="./images/activites/paul-hermann.jpg" alt="Photo d'un fort" loading="lazy">
+                                    <div class="card-content">
+                                        <div class="card-txt">
+                                            <h3 class="card-title">Fort de Pomègues</h3>
+                                        </div>
                                     </div>
-                                </div>
-                            </article>
-                        </a>
-                        <a href="#">
-                            <article class="card">
-                                <img src="./images/activites/kilyan-sockalingum.jpg" alt="Photo de la mer vue des falaises" loading="lazy">
-                                <div class="card-content">
-                                    <div class="card-txt">
-                                        <h3 class="card-title">Parc national des Calanques</h3>
+                                </article>
+                            </a>
+                            <a href="#">
+                                <article class="card">
+                                    <img src="./images/activites/kilyan-sockalingum.jpg" alt="Photo de la mer vue des falaises" loading="lazy">
+                                    <div class="card-content">
+                                        <div class="card-txt">
+                                            <h3 class="card-title">Parc national des Calanques</h3>
+                                        </div>
                                     </div>
-                                </div>
-                            </article>
-                        </a>
-                        <a href="#">
-                            <article class="card">
-                                <img src="./images/activites/florian-wehde.jpg" alt="Photo d'un village" loading="lazy">
-                                <div class="card-content">
-                                    <div class="card-txt">
-                                        <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
+                                </article>
+                            </a>
+                            <a href="#">
+                                <article class="card">
+                                    <img src="./images/activites/florian-wehde.jpg" alt="Photo d'un village" loading="lazy">
+                                    <div class="card-content">
+                                        <div class="card-txt">
+                                            <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
+                                        </div>
                                     </div>
-                                </div>
-                            </article>
-                        </a>
+                                </article>
+                            </a>
+                        </div>
                     </div>
                 </section>
             </main>
