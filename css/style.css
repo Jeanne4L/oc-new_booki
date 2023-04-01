@@ -93,7 +93,7 @@ header li a:hover {
     color: var(--main-color);
 }
 
-/****** Presentation Part ***********/
+/****** Presentation Part ******************/
 h1 {
     margin-bottom: 10px;
 }
@@ -165,7 +165,7 @@ form button:hover > .fa-magnifying-glass {
     display: none;
 }
 
-/****** Filters ***********/
+/****** Filters *********/
 h2.small {
     font-size: 1rem;
     margin: 0 20px 0 0;
@@ -424,7 +424,7 @@ footer li {
         color: var(--main-color);
     }
 
-    .presentation {
+    .presentation, #activities .container {
         padding: 0 30px;
     }
 
